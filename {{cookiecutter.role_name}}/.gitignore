@@ -1,0 +1,10 @@
+### IDE ###
+/.idea
+#### Vagrant ####
+.vagrant/
+#### Molecule ####
+molecule/*/pytestdebug.log
+molecule/*/tests/__pycache__
+molecule-venv*
+#### Ansible ####
+*.retry
